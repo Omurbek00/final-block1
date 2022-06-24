@@ -1,0 +1,56 @@
+@import "./burger.scss";
+@import "./call.scss";
+@import "./chat.scss";
+@import "./fonts.scss";
+@import "./footer.scss";
+@import "./header.scss";
+@import "./main.scss";
+@import "./menu.scss";
+@import "./price.scss";
+@import "./prices.scss";
+@import "./swiper.scss";
+@import "./text-footer.scss";
+
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: 'TT Lakes Medium', sans-serif;
+  background: #F2F2F2;
+}
+.body__cancel {
+  opacity: 0;
+}
+.chat__cancel--body {
+  background: #fff;
+  opacity: 0;
+}
+.call__cancel--body {
+  opacity: 0;
+}
+.footer__cancel {
+  opacity: 0;
+}
+.footer__cancel--chat {
+  opacity: 0;
+}
+.footer__cancel--call {
+  opacity: 0;
+}
+@media (min-width: 768px) {
+  .swiper-pagination {
+    display: none;
+  }
+  .swiper-wrapper {
+   transform: translate(0,0) !important;
+   display: flex;
+   flex-wrap: wrap;
+  }
+}
+@media(min-width: 1440px) {
+  body {
+      width: 1120px;
+      margin-left: 320px;
+  }
+}

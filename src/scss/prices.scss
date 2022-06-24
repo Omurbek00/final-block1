@@ -1,0 +1,96 @@
+.prices__slide {
+    width: 244px !important;
+    height: 200px !important;
+    background: #fff;
+    margin: 0 16px 0 16px;
+    padding-left: 16px;
+    line-height: 17px;
+    border: 0.5px solid #fff;
+    border-radius: 6px;
+}
+.prices__repair--service {
+    margin: 16px 0 4px 0;
+    color: $color_white;
+}
+.prices__diagnostic {
+    margin: 0 0 16px 0;
+}
+.prices {
+    margin: 0 0 4px 0;
+    color: $color_white;
+}
+.prices__money {
+    margin: 0 0 16px 0;
+}
+.prices__time {
+    color: $color_white;
+    margin: 0 0 4px 0;
+}
+.prices__min {
+    margin: 0 0 20px 0;
+}
+.prices__img {
+    position: absolute;
+    top: 152px;
+    left: 125px;
+}
+.prices__text {
+    font-size: 16px;
+    margin: 24px 0 16px 0;
+    color: #7E7E82;
+    background: linear-gradient(270deg, #FFF 0%, #F8F8F8 98.61%);
+    padding: 16px 0 16px 16px;
+}
+.table__container {
+    display: none;
+  }
+@media (min-width: 768px) {
+    .table__container {
+        display: table;
+    }
+    .prices__repair {
+        display: none;
+    }
+    .table__body,
+    .table__body--img {
+        border-bottom: 2px solid #EAEAEA;
+        padding: 16px 0 16px 16px;
+        height: 18px;
+        border-radius: 6px;
+    }
+    table {
+        border-collapse: collapse;
+        margin: 0 0 24px 24px;
+        width: 720px;
+        height: 324px;
+        font-size: 14px;
+        line-height: 14px;
+    }
+    .table__tbody {
+        background: #fff;
+    }
+    .table__header {
+        padding: 15px 16px 16px;
+        color: $color_white;
+    }
+}
+@media(min-width: 1440px) {
+    .prices__text {
+        padding-left: 32px;
+        margin-bottom: 31px;
+        margin-top: 50px;
+    }
+    .table__container {
+        width: 1056px;
+        margin: 0 32px 0 32px;
+    }
+    .button__table {
+        width: 119px;
+    }
+    .table__body--img {
+        width: 123px;
+        padding-left: 0;
+        padding-right: 24px;
+    }
+    
+}
